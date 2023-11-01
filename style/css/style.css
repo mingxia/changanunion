@@ -15,7 +15,6 @@ Table of contents
   @-> Service Section
   @-> Resume Section
   @-> Portfolio Section
-  @-> Review Section
   @-> Contact Section
   @-> Footer Section
   @-> Other Pagers
@@ -665,62 +664,6 @@ ol {
 }
 
 /* ====================
-  Review Section
-=======================*/
-
-.review-warp {
-	max-width: 1500px;
-	margin: 0 auto;
-	background: #333;
-}
-
-.review-warp:hover .review-slider .owl-nav .owl-prev,
-.review-warp:hover .review-slider .owl-nav .owl-next {
-	margin: 0 20px;
-	opacity: 1;
-}
-
-.review-slider .owl-nav {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: -45px;
-	text-align: center;
-}
-
-.review-slider .owl-nav .owl-prev,
-.review-slider .owl-nav .owl-next {
-	margin: 0 5px;
-	color: #fff;
-	opacity: 0;
-	display: inline-block;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.review-item {
-	position: relative;
-	z-index: 1;
-}
-
-.review-item p {
-	font-size: 15px;
-	color: #fff;
-	margin-bottom: 40px;
-}
-
-.review-item h4 {
-	color: #fff;
-	margin-bottom: 5px;
-}
-
-.review-item span {
-	color: #ffbc00;
-	font-size: 12px;
-}
-
-/* ====================
   Contact Section
 =======================*/
 
@@ -803,42 +746,6 @@ ol {
 	background-position: center -5px;
 	background-color: #111111;
 	text-align: center;
-}
-
-.social-links {
-	margin-bottom: 25px;
-}
-
-.social-links a {
-	display: inline-table;
-	text-align: center;
-	height: 35px;
-	width: 35px;
-	color: #fff;
-	margin: 0 4px;
-	border-radius: 50%;
-	font-size: 13px;
-}
-
-.social-links a i {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.social-links a.facebook {
-	background: #2D5DA1;
-}
-
-.social-links a.twitter {
-	background: #1AB1E5;
-}
-
-.social-links a.behance {
-	background: #2A71F3;
-}
-
-.social-links a.dribbble {
-	background: #DF7EA5;
 }
 
 .copyright {
@@ -1055,6 +962,9 @@ ol {
 	.hero-content i {
 		font-size: 60px;
 	}
+	.section-title h2 {
+		font-size: 28px;
+	}
 	.about-text {
 		padding-top: 30px;
 	}
@@ -1106,8 +1016,7 @@ ol {
 
 @media only screen and (max-width: 479px) {
 	.header-warp {
-		height: 55px;
-		padding-top: 5px;
+		height: 45px;
 	}
 	.responsive-switch {
 		padding-top: 4px;

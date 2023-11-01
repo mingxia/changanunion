@@ -1096,6 +1096,10 @@ ol {
 		padding: 0 15px;
 		font-size: 18px;
 	}
+	.cont-info {
+	        width: 50%;
+	        margin-bottom: 20px;
+        }
 }
 
 /* small Mobile :320px. */

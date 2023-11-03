@@ -1019,6 +1019,12 @@ ol {
 		padding: 0 15px;
 		font-size: 18px;
 	}
+	.portfolio-details figure img {
+		padding: 0 15px;
+	}
+	.portfolio-details h3 {
+		padding: 0 15px;
+	}
 	.cont-info {
 	        width: 50%;
 	        margin-bottom: 20px;

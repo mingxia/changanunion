@@ -328,9 +328,8 @@ ol {
 	text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
-.hero-content i {
+.hero-content img {
 	font-size: 70px;
-	color: #ffbc00;
 	padding-left: 10px;
 	-webkit-animation: finger 1.5s infinite;
 	animation: finger 1.5s infinite;
@@ -562,6 +561,9 @@ ol {
 .work-item {
 	display: block;
 	position: relative;
+	width: 35px;
+	padding-bottom: 15px;
+	margin: 0 auto;
 }
 
 .work-item img {

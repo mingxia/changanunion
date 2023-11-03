@@ -789,6 +789,7 @@ ol {
 	padding-left: 10px;
 	margin-bottom: 25px;
 }
+
 .portfolio-details figure img {
 	margin-bottom: 15px;
 	padding: 0 45px;
@@ -1012,7 +1013,7 @@ ol {
 		padding-bottom: 25px;
 	}
 	.portfolio-details {
-		padding-top: 200px;
+		padding-top: 100px;
 	}
 	.portfolio-details p {
 		padding: 0 15px;

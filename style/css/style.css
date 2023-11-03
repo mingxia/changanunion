@@ -765,13 +765,14 @@ ol {
 .portfolio-details h2 {
 	font-size: 30px;
 	font-weight: 600;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .portfolio-details h3 {
-	font-size: 25px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 400;
 	margin-bottom: 15px;
+	padding: 0 45px;
 }
 
 .portfolio-details p {
@@ -782,8 +783,15 @@ ol {
 	margin-bottom: 30px;
 }
 
+.portfolio-details blockquote {
+	border-left: thick solid rgb(35, 158, 164);
+	color: rgb(219, 150, 150);
+	padding-left: 10px;
+	margin-bottom: 25px;
+}
 .portfolio-details figure img {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	padding: 0 45px;
 }
 
 .portfolio-details .work-info-list {
@@ -1048,7 +1056,7 @@ ol {
 		font-size: 22px;
 	}
 	.portfolio-details {
-		padding-top: 130px;
+		padding-top: 80px;
 	}
 	.portfolio-details h2 {
 		font-size: 30px;

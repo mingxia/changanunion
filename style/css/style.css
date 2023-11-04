@@ -762,6 +762,10 @@ ol {
 	padding-bottom: 40px;
 }
 
+.portfolio-details .pagebetter {
+	padding: 0 45px;
+}
+
 .portfolio-details h2 {
 	font-size: 30px;
 	font-weight: 600;
@@ -772,27 +776,24 @@ ol {
 	font-size: 20px;
 	font-weight: 400;
 	margin-bottom: 15px;
-	padding: 0 45px;
 }
 
 .portfolio-details p {
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 1.6;
-	padding: 0 45px;
 	margin-bottom: 30px;
 }
 
 .portfolio-details blockquote {
-	border-left: thick solid rgb(35, 158, 164);
-	color: rgb(219, 150, 150);
-	padding-left: 10px;
-	margin-bottom: 25px;
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	font-size: 17.5px;
+	border-left: 5px solid #eee;
 }
 
 .portfolio-details figure img {
 	margin-bottom: 15px;
-	padding: 0 45px;
 }
 
 .portfolio-details .work-info-list {
@@ -1015,15 +1016,12 @@ ol {
 	.portfolio-details {
 		padding-top: 100px;
 	}
+
+	.portfolio-details .pagebetter {
+		padding: 0 15px;
+	}
 	.portfolio-details p {
-		padding: 0 15px;
 		font-size: 18px;
-	}
-	.portfolio-details figure img {
-		padding: 0 15px;
-	}
-	.portfolio-details h3 {
-		padding: 0 15px;
 	}
 	.cont-info {
 	        width: 50%;
@@ -1064,6 +1062,9 @@ ol {
 	}
 	.portfolio-details {
 		padding-top: 80px;
+	}
+	.portfolio-details .pagebetter {
+		padding: 0 15px;
 	}
 	.portfolio-details h2 {
 		font-size: 30px;

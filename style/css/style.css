@@ -107,7 +107,7 @@ ol {
 
 .section-title p {
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 }
 
 .set-bg {
@@ -754,6 +754,10 @@ ol {
 	font-size: 14px;
 }
 
+.copyright a {
+	color: white;
+}
+
 /* ====================
   Other Pages
 =======================*/
@@ -776,6 +780,11 @@ ol {
 .portfolio-details h3 {
 	font-size: 20px;
 	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.portfolio-details h4 {
+	font-size: 18px;
 	margin-bottom: 15px;
 }
 

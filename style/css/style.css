@@ -108,6 +108,11 @@ ol {
 .section-title p {
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+.section-title a {
+	color: #999;
 }
 
 .set-bg {

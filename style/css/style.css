@@ -484,7 +484,7 @@ ol {
 }
 
 .resume-item:last-child {
-	margin-bottom: 0;
+	margin-bottom: 30px;
 }
 
 .resume-item .resume-year {
@@ -506,7 +506,7 @@ ol {
 
 .resume-item .resume-year h2 {
 	font-size: 26px;
-	font-weight: 600;
+	font-weight: 500;
 	position: relative;
 	z-index: 1;
 }
@@ -517,7 +517,7 @@ ol {
 }
 
 .resume-item .resume-text h3 {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 22px;
 	margin-bottom: 5px;
 }
@@ -673,9 +673,29 @@ ol {
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
+
 .story-section {
-	padding-top: 120px;
+	padding-top: 100px;
 }
+
+.story-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.story-title h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #000;
+}
+
+.story-title p {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+}
+
 .story-item {
 	display: block;
 	position: relative;
@@ -1141,7 +1161,12 @@ ol {
 	.portfolio-details {
 		padding-top: 100px;
 	}
-
+	.story-section {
+		padding-top: 80px;
+	}
+	.resume-section {
+		padding-top: 100px;
+	}
 	.portfolio-details .pagebetter {
 		padding: 0 15px;
 	}
@@ -1149,9 +1174,9 @@ ol {
 		font-size: 18px;
 	}
 	.cont-info {
-	        width: 50%;
-	        margin-bottom: 20px;
-        }
+		width: 50%;
+	  margin-bottom: 20px;
+  }
 }
 
 /* small Mobile :320px. */
@@ -1162,6 +1187,9 @@ ol {
 	}
 	.responsive-switch {
 		padding-top: 4px;
+	}
+	.section-title {
+		margin-bottom: 30px;
 	}
 	.hero-content {
 		padding-left: 30px;
@@ -1175,6 +1203,9 @@ ol {
 	.about-text h2 {
 		font-size: 33px;
 	}
+	.resume-section {
+		padding-top: 80px;
+	}
 	.resume-item .resume-text h3 {
 		font-size: 18px;
 	}
@@ -1186,7 +1217,7 @@ ol {
 		font-size: 22px;
 	}
 	.story-section {
-		padding-top: 80px;
+		padding-top: 60px;
 	}
 	.portfolio-details {
 		padding-top: 80px;

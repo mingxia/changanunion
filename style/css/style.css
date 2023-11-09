@@ -753,6 +753,7 @@ ol {
 .story-item .story-info h3 {
 	color: #fff;
 	overflow: hidden;
+	font-size: 20px;
 }
 
 .story-item .story-info h3 span {
@@ -1183,6 +1184,9 @@ ol {
 	}
 	.work-item .work-info h3 {
 		font-size: 22px;
+	}
+	.story-section {
+		padding-top: 80px;
 	}
 	.portfolio-details {
 		padding-top: 80px;

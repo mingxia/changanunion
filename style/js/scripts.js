@@ -10,11 +10,11 @@
 
 'use strict';
 
-$(window).on('load', function() { 
+$(window).on('load', function() {
 	/*------------------
 		Preloder
 	--------------------*/
-	$(".loader").fadeOut(); 
+	$(".loader").fadeOut();
 	$("#preloder").delay(400).fadeOut("slow");
 
 
@@ -26,7 +26,7 @@ $(window).on('load', function() {
 
 	$('.portfolio-filter li').on("click", function(){
 		$(".portfolio-filter li").removeClass("active");
-		$(this).addClass("active");				 
+		$(this).addClass("active");
 		var selector = $(this).attr('data-filter');
 		$(".isotope_items").isotope({
 				filter: selector,
@@ -48,7 +48,7 @@ $(window).on('load', function() {
 		Navigation
 	--------------------*/
 	$('.responsive-switch').on('click', function(e) {
-		$('.site-menu').toggleClass('active');	
+		$('.site-menu').toggleClass('active');
 		e.preventDefault();
 	});
 
@@ -76,17 +76,6 @@ $(window).on('load', function() {
 		}
 		e.preventDefault();
 	});
-
-
-
-	/*------------------
-		Background set
-	--------------------*/
-	$('.set-bg').each(function() {
-		var bg = $(this).data('setbg');
-		$(this).css('background-image', 'url(' + bg + ')');
-	});
-
 
 	/*------------------
 		PROGRESS BAR
